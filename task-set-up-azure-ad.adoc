@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-set-up-azure-ad.html 
 keywords: azure netapp files, azure netapp files permissions, azure permissions, active directory, application, ad application, ad app, app, service principal 
-summary: Cloud Manager で Azure NetApp Files を設定および管理するには権限が必要です。Azure アカウントに必要な権限を付与するには、 Azure Active Directory アプリケーションを作成してセットアップし、 Cloud Manager で必要な Azure クレデンシャルを取得します。 
+summary: Azure NetApp Files を設定および管理するには、BlueXPに権限が必要です。Azureアカウントに必要な権限を付与するには、Azure Active Directoryアプリケーションを作成してセットアップし、BlueXPで必要なAzureクレデンシャルを取得します。 
 ---
 = Azure AD アプリケーションをセットアップする
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: Cloud Manager で Azure NetApp Files を設定および管理するに�
 
 
 [role="lead"]
-Cloud Manager で Azure NetApp Files を設定および管理するには権限が必要です。Azure アカウントに必要な権限を付与するには、 Azure Active Directory （ AD ）アプリケーションを作成してセットアップし、 Cloud Manager で必要な Azure クレデンシャルを取得します。
+Azure NetApp Files を設定および管理するには、BlueXPに権限が必要です。Azureアカウントに必要な権限を付与するには、Azure Active Directory（AD）アプリケーションを作成してセットアップし、BlueXPで必要なAzureクレデンシャルを取得します。
 
 
 
 == AD アプリケーションを作成します
 
-Cloud Manager でロールベースアクセス制御に使用できる Azure AD アプリケーションとサービスプリンシパルを作成します。
+BlueXPでロールベースアクセス制御に使用できるAzure ADアプリケーションとサービスプリンシパルを作成します。
 
 Azure で Active Directory アプリケーションを作成してロールに割り当てるための適切な権限が必要です。詳細については、を参照してください https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure のドキュメント：「 Required permissions"^]。
 
@@ -36,7 +36,7 @@ image:screenshot_azure_ad.gif["Microsoft Azure の Active Directory サービス
 .. アプリケーションの詳細を指定します。
 +
 *** * 名前 * ：アプリケーションの名前を入力します。
-*** * アカウントタイプ * ：アカウントタイプを選択します（ Cloud Manager で使用できます）。
+*** *アカウントの種類*:アカウントの種類を選択します(すべてのアカウントはBlueXPで動作します)。
 *** * リダイレクト URI *: このフィールドは空白のままにできます。
 
 
@@ -48,9 +48,9 @@ image:screenshot_azure_ad.gif["Microsoft Azure の Active Directory サービス
 image:screenshot_anf_app_ids.gif["Azure Active Directory 内のアプリケーション（クライアント）の ID とディレクトリ（テナント） ID を示すスクリーンショット。"]
 
 +
-Cloud Manager で Azure NetApp Files 作業環境を作成するときは、アプリケーション（クライアント） ID とディレクトリ（テナント） ID を指定する必要があります。Cloud Manager は、この ID を使用してプログラムによってサインインします。
+BlueXPでAzure NetApp Files 作業環境を作成する場合は'アプリケーション(クライアント) IDとディレクトリ(テナント) IDを指定する必要がありますBlueXPでは、プログラムでサインインするためにIDが使用されます。
 
-. Cloud Manager が Azure AD で認証できるように、アプリケーションのクライアントシークレットを作成します。
+. アプリケーションのクライアントシークレットを作成して、BlueXPがAzure ADで認証できるようにします。
 +
 .. ［ * 証明書とシークレット > 新しいクライアントシークレット * ］ をクリックします。
 .. シークレットと期間の説明を入力します。
@@ -63,7 +63,7 @@ image:screenshot_anf_client_secret.gif["Azure AD サービスプリンシパル�
 
 
 
-これで AD アプリケーションがセットアップされ、アプリケーション（クライアント） ID 、ディレクトリ（テナント） ID 、およびクライアントシークレットの値をコピーしました。この情報は、 Azure NetApp Files 作業環境を追加するときに、 Cloud Manager で入力する必要があります。
+これで AD アプリケーションがセットアップされ、アプリケーション（クライアント） ID 、ディレクトリ（テナント） ID 、およびクライアントシークレットの値をコピーしました。Azure NetApp Files 作業環境を追加する場合は'BlueXPでこの情報を入力する必要があります
 
 
 
@@ -127,7 +127,7 @@ image:screenshot_anf_app_role.png["Azure ポータルのスクリーンショッ
 
 .. [ レビュー + 割り当て（ Review + Assign ） ] をクリックします。
 +
-Cloud Manager のサービスプリンシパルに、そのサブスクリプションに必要な Azure の権限が付与されるようになりました。
+BlueXPのサービスプリンシパルに、そのサブスクリプションに必要なAzure権限が割り当てられました。
 
 
 

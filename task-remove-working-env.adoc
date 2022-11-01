@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-remove-working-env.html 
 keywords: remove azure netapp files, remove anf, remove working environment 
-summary: この操作を実行すると、 Azure NetApp Files が Cloud Manager から削除されます。Azure NetApp Files アカウントやボリュームは削除されません。Azure NetApp Files はいつでも Cloud Manager に追加できます。 
+summary: 'この操作により"BlueXPからAzure NetApp Files が削除されますAzure NetApp Files アカウントやボリュームは削除されません。Azure NetApp Files はいつでもBlueXPに追加できます。' 
 ---
 = Azure NetApp Files を削除します
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: この操作を実行すると、 Azure NetApp Files が Cloud Manager 
 
 
 [role="lead"]
-この操作を実行すると、 Azure NetApp Files が Cloud Manager から削除されます。Azure NetApp Files アカウントやボリュームは削除されません。Azure NetApp Files はいつでも Cloud Manager に追加できます。
+この操作により'BlueXPからAzure NetApp Files が削除されますAzure NetApp Files アカウントやボリュームは削除されません。Azure NetApp Files はいつでもBlueXPに追加できます。
 
 .手順
 . Azure NetApp Files 作業環境を開きます。
 . ページの右上にあるアクションメニューを選択し、 * Azure NetApp Files の削除 * をクリックします。
 +
-image:screenshot_anf_remove.gif["Azure NetApp Files の削除をクリックして、 Cloud Manager インターフェイスからボリュームを削除するスクリーンショット。"]
+image:screenshot_anf_remove.gif["BlueXPインターフェイスからボリュームを削除するには、[Remove Azure NetApp Files （ボリュームの削除）]をクリックするスクリーンショット。"]
 
 . [ 削除（ Remove ） ] をクリックして確定します。
 
