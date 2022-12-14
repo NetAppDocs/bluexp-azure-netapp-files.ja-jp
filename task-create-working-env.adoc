@@ -26,8 +26,10 @@ image:screenshot_anf_details.gif["Azure NetApp Files 作業環境の作成に必
 . [ 追加（ Add ） ] をクリックします。
 
 
+.結果
 これで Azure NetApp Files の作業環境が作成されました。
 
 image:screenshot_anf_we.gif["Azure NetApp Files 作業環境のスクリーンショット。"]
 
+.次の手順
 link:task-create-volumes.html["ボリュームの作成と管理を開始します"]。

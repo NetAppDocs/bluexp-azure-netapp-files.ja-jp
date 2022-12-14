@@ -22,6 +22,7 @@ Azure NetApp Files を設定および管理するには、BlueXPに権限が必�
 
 BlueXPでロールベースアクセス制御に使用できるAzure ADアプリケーションとサービスプリンシパルを作成します。
 
+.作業を開始する前に
 Azure で Active Directory アプリケーションを作成してロールに割り当てるための適切な権限が必要です。詳細については、を参照してください https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure のドキュメント：「 Required permissions"^]。
 
 .手順
@@ -63,6 +64,7 @@ image:screenshot_anf_client_secret.gif["Azure AD サービスプリンシパル�
 
 
 
+.結果
 これで AD アプリケーションがセットアップされ、アプリケーション（クライアント） ID 、ディレクトリ（テナント） ID 、およびクライアントシークレットの値をコピーしました。Azure NetApp Files 作業環境を追加する場合は'BlueXPでこの情報を入力する必要があります
 
 
