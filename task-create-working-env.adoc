@@ -14,16 +14,14 @@ summary: Azure Active Directoryアプリケーションをセットアップし�
 
 
 [role="lead"]
-Azure Active Directoryアプリケーションをセットアップしたら、必要なボリュームの作成を開始できるように、BlueXPでAzure NetApp Files 作業環境を作成します。
+Azure Active DirectoryアプリケーションをセットアップしてBlueXPにクレデンシャルを追加したら、必要なボリュームの作成を開始できるようにAzure NetApp Files 作業環境を作成します。
 
 .手順
 . キャンバスページで、 * 作業環境の追加 * をクリックします。
-. [Microsoft Azure* ] 、 [*Azure NetApp Files *] の順に選択します。
-. 以前に設定した AD アプリケーションの詳細を指定します。
-+
-image:screenshot_anf_details.gif["Azure NetApp Files 作業環境の作成に必要なフィールドのスクリーンショット。名前、アプリケーション ID 、クライアントシークレット、およびディレクトリ ID を含みます。"]
-
-. [ 追加（ Add ） ] をクリックします。
+. Microsoft Azure *を選択します。
+. Azure NetApp Files の横にある* Discover *を選択します。
+. [Details]ページで、作業環境の名前を入力し、以前に設定したクレデンシャルを選択します。
+. [* Continue （続行） ] をクリックします
 
 
 .結果
