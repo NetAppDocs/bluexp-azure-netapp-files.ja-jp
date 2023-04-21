@@ -70,4 +70,4 @@ Cloud Manager では、ボリューム Snapshot を作成、削除、リスト�
 
 === Azure NetApp Files へのデータ移行
 
-NFS または SMB データを Azure NetApp Files に Cloud Manager から直接移行できるようになりました。データの同期には、ネットアップの Cloud Sync サービスが利用されています。
+NFS または SMB データを Azure NetApp Files に Cloud Manager から直接移行できるようになりました。データ同期にはBlueXPのコピーと同期が使用されます。

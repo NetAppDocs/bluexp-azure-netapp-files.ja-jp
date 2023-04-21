@@ -102,7 +102,6 @@
   <block id="5054d68a0b2f03dece3eb72cfaa09427" category="list-text">サイズを変更し、タグを管理してボリュームを編集します。</block>
   <block id="396a3c9fb559d38e68f68ea139b3539a" category="paragraph">以前のデータ移行機能は、 Cloud Manager から Azure NetApp Files を直接作成および管理できるようになりました。</block>
   <block id="02a58c551f186d8f833147198d69fb26" category="section-title">Azure NetApp Files へのデータ移行</block>
-  <block id="8d30064c294030bc7a1446fe0cf94ca9" category="paragraph">NFS または SMB データを Azure NetApp Files に Cloud Manager から直接移行できるようになりました。データの同期には、ネットアップの Cloud Sync サービスが利用されています。</block>
   <block id="af08318aa95b670c097bf944ab12d208" category="summary">作業環境をセットアップしたら、 Azure NetApp Files アカウント、容量プール、およびボリュームを作成できます。</block>
   <block id="ba0aa3e7264cbd8d5a1204a3f3d868cc" category="doc">Azure NetApp Files 用のボリュームを作成してマウント</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">ボリュームを作成します</block>
@@ -167,11 +166,6 @@
   <block id="b4afab774d5aae036a66f2e95c63406b" category="list-text">複数のプロトコルをサポートしているため、 Linux と Windows 両方のアプリケーションを Azure でシームレスに移行してスムーズに実行できます。</block>
   <block id="86431e70f2e01436434235b95f27507f" category="list-text">複数のパフォーマンス階層を使用することで、ワークロードのパフォーマンス要件に緊密に合わせることができます。</block>
   <block id="0f5101975c831a1a6350155e818d4cbf" category="list-text">SAP HANA 、 GDPR 、 HIPAA を含む業界をリードする認定資格を取得することで、最も要件の厳しいワークロードを Azure に移行できます。</block>
-  <block id="c9e8b2e7aec1baa65efcbe84dfc9d0ed" category="inline-link">Cloud Sync の詳細については、こちらをご覧ください</block>
-  <block id="707476b7ceb8bcfdb9c13e59859ae97a" category="paragraph"><block ref="707476b7ceb8bcfdb9c13e59859ae97a" category="inline-link-rx"></block></block>
-  <block id="25c46bef01bcfa77e5905b1d3308762a" category="list-text">人工知能（ AI ）ベースのテクノロジを使用したクラウドデータセンスは、データの状況を把握し、 Azure NetApp Files アカウントに存在する機密データを特定するのに役立ちます。</block>
-  <block id="a11b0fe7d09898eeb7b50552e83ef426" category="inline-link">クラウドデータセンスの詳細をご確認ください</block>
-  <block id="3af0f3d8f43764595483a67930d47716" category="paragraph"><block ref="3af0f3d8f43764595483a67930d47716" category="inline-link-rx"></block></block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">コスト</block>
   <block id="b8371ae9d98b29b8335a4aea09cdaff3" category="inline-link">Azure NetApp Files の価格設定を確認する</block>
   <block id="4b3f21f8a5b6bf8c27f851053be34ac4" category="paragraph"><block ref="4b3f21f8a5b6bf8c27f851053be34ac4" category="inline-link-rx"></block></block>
@@ -183,8 +177,6 @@
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">関連リンク</block>
   <block id="6c32a3d0f1a665987b98dde5a0f96d7d" category="inline-link">Azure NetApp Files のドキュメント</block>
   <block id="844f85f22af5197ff73f93313cd94cd1" category="list-text"><block ref="844f85f22af5197ff73f93313cd94cd1" category="inline-link-rx"></block></block>
-  <block id="815e6b3583bbc9969fd306b9391ed0cb" category="inline-link">Cloud Sync のドキュメント</block>
-  <block id="e66ce730725b027d172b1b3ee7612614" category="list-text"><block ref="e66ce730725b027d172b1b3ee7612614" category="inline-link-rx"></block></block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link-macro"></block>
   <block id="a5cd00357f60ad0eaa681bb68df15c6d" category="doc">Azure NetApp Files を削除します</block>
@@ -438,5 +430,13 @@
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">添付ファイルはファイルあたり25 MBに制限されています。サポートされているファイル拡張子は、txt、log、pdf、jpg/jpeg、rtf、 doc/docx、xls/xlsx、およびcsv。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*ケースノートの更新*：問題の詳細を入力するか、*ファイルのアップロード*を選択して最大5つのファイルを添付します。</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
-  <block id="6ecf0fff968ff9d17f1f524f90c9a9fe" category="list-text">NFSやSMBのデータをBlueXPからAzure NetApp Files に直接移行データ移行には、ネットアップの Cloud Sync サービスが採用されています。</block>
+  <block id="5ae0183e058629fb85c6246d99460224" category="list-text">NFSやSMBのデータをBlueXPからAzure NetApp Files に直接移行データ移行にはBlueXPのコピーと同期が活用されます。</block>
+  <block id="29a7b2441d86b88dc7b6b010d54ea1ea" category="inline-link">BlueXPのコピーと同期の詳細については、こちらをご覧ください</block>
+  <block id="b21bc087b016de9c9d4df482b82dd508" category="paragraph"><block ref="b21bc087b016de9c9d4df482b82dd508" category="inline-link-rx"></block></block>
+  <block id="08db1d63700c3fa1c62acd4830447cc5" category="list-text">人工知能（AI）ベースのテクノロジを使用するBlueXPの分類は、データのコンテキストを理解し、Azure NetApp Files アカウントに存在する機密データを特定するのに役立ちます。</block>
+  <block id="726d1cad4d0527532460d1a853919ebc" category="inline-link">BlueXPの分類の詳細については、こちらをご覧ください</block>
+  <block id="a77bc623afdc17e8c5a78facbb8e1c59" category="paragraph"><block ref="a77bc623afdc17e8c5a78facbb8e1c59" category="inline-link-rx"></block></block>
+  <block id="db75f0488f4e9bbad86a02da9a572896" category="inline-link">BlueXPのコピーと同期に関するドキュメント</block>
+  <block id="fb74755ec9e51eecce1be084a0ce803a" category="list-text"><block ref="fb74755ec9e51eecce1be084a0ce803a" category="inline-link-rx"></block></block>
+  <block id="cc4556ad288d7fd7e7c9f944615b36c2" category="paragraph">NFS または SMB データを Azure NetApp Files に Cloud Manager から直接移行できるようになりました。データ同期にはBlueXPのコピーと同期が使用されます。</block>
 </blocks>
