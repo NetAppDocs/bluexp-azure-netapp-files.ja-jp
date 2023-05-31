@@ -31,11 +31,11 @@ Azure NetApp Files を使用すると、パフォーマンスを重視し、レ�
 
 * NFSやSMBのデータをBlueXPからAzure NetApp Files に直接移行データ移行にはBlueXPのコピーと同期が活用されます。
 +
-https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["BlueXPのコピーと同期の詳細については、こちらをご覧ください"^]
+https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["BlueXPのコピーと同期の詳細については、こちらをご覧ください"^]
 
 * 人工知能（AI）ベースのテクノロジを使用するBlueXPの分類は、データのコンテキストを理解し、Azure NetApp Files アカウントに存在する機密データを特定するのに役立ちます。
 +
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["BlueXPの分類の詳細については、こちらをご覧ください"^]
+https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXPの分類の詳細については、こちらをご覧ください"^]
 
 
 
@@ -65,5 +65,5 @@ Azure NetApp Files に関連したテクニカルサポートの問題につい�
 
 * https://cloud.netapp.com/azure-netapp-files["ネットアップのBlueXP Webサイト：Azure NetApp Files"^]
 * https://docs.microsoft.com/azure/azure-netapp-files/["Azure NetApp Files のドキュメント"^]
-* https://docs.netapp.com/us-en/cloud-manager-sync/index.html["BlueXPのコピーと同期に関するドキュメント"^]
+* https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["BlueXPのコピーと同期に関するドキュメント"^]
 
