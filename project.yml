@@ -14,12 +14,14 @@ sidebar:
   - title: Azure NetApp Files のドキュメント
     url: "/index.html"
   - title: リリースノート
-    url: "/whats-new.html"
+    entries:
+    - title: 新機能
+      url: "/whats-new.html"
   - title: はじめに
     entries:
     - title: Azure NetApp Files の詳細をご覧ください
       url: "/concept-azure-netapp-files.html"
-    - title: クイックスタート
+    - title: スタートアップワークフロー
       url: "/task-quick-start.html"
     - title: Azure AD アプリケーションをセットアップする
       url: "/task-set-up-azure-ad.html"
