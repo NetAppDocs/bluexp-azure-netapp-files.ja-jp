@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-quick-start.html 
 keywords: set up azure netapp files, quick start 
-summary: Azure NetApp Filesの使用を開始するには、Azure Active Directoryアプリケーションをセットアップし、作業環境を作成します。 
+summary: Azure NetApp Filesの使用を開始するには、Microsoft Entraアプリケーションをセットアップし、作業環境を作成します。 
 ---
 = スタートアップワークフロー
 :hardbreaks:
@@ -14,11 +14,11 @@ summary: Azure NetApp Filesの使用を開始するには、Azure Active Directo
 
 
 [role="lead"]
-Azure NetApp Filesの使用を開始するには、Azure Active Directoryアプリケーションをセットアップし、作業環境を作成します。
+Azure NetApp Filesの使用を開始するには、Microsoft Entraアプリケーションをセットアップし、作業環境を作成します。
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1つ"] link:task-set-up-azure-ad.html["Azure AD アプリケーションをセットアップする"]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1つ"] link:task-set-up-azure-ad.html["Microsoft Entraアプリケーションのセットアップ"]
 [role="quick-margin-para"]
-Azure から Azure AD アプリケーションに権限を付与し、アプリケーション（クライアント） ID 、ディレクトリ（テナント） ID 、クライアントシークレットの値をコピーします。
+Azureから、Microsoft Entraアプリケーションに権限を付与し、アプリケーション（クライアント）ID、ディレクトリ（テナント）ID、クライアントシークレットの値をコピーします。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2 つ"] link:task-create-working-env.html["Azure NetApp Files 作業環境を作成します"]
 [role="quick-margin-para"]

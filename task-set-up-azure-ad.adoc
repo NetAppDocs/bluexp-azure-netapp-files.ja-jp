@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-set-up-azure-ad.html 
 keywords: azure netapp files, azure netapp files permissions, azure permissions, active directory, application, ad application, ad app, app, service principal 
-summary: Azure NetApp Files を設定および管理するには、BlueXPに権限が必要です。Azureアカウントに必要な権限を付与するには、Azure Active Directoryアプリケーションを作成してセットアップし、BlueXPで必要なAzureクレデンシャルを取得します。 
+summary: Azure NetApp Files を設定および管理するには、BlueXPに権限が必要です。Azureアカウントに必要な権限を付与するには、Microsoft Entraアプリケーションを作成してセットアップし、BlueXPに必要なAzureクレデンシャルを取得します。 
 ---
-= Azure AD アプリケーションをセットアップする
+= Microsoft Entraアプリケーションのセットアップ
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,21 +14,21 @@ summary: Azure NetApp Files を設定および管理するには、BlueXPに権�
 
 
 [role="lead"]
-Azure NetApp Files を設定および管理するには、BlueXPに権限が必要です。Azureアカウントに必要な権限を付与するには、Azure Active Directory（AD）アプリケーションを作成してセットアップし、BlueXPで必要なAzureクレデンシャルを取得します。
+Azure NetApp Files を設定および管理するには、BlueXPに権限が必要です。Azureアカウントに必要な権限を付与するには、Microsoft Entraアプリケーションを作成してセットアップし、BlueXPに必要なAzureクレデンシャルを取得します。
 
 
 
-== 手順1：ADアプリケーションを作成する
+== ステップ1：アプリケーションを作成する
 
-BlueXPでロールベースアクセス制御に使用できるAzure ADアプリケーションとサービスプリンシパルを作成します。
+BlueXPでロールベースアクセス制御に使用できるMicrosoft Entraアプリケーションとサービスプリンシパルを作成します。
 
 .作業を開始する前に
 Azure で Active Directory アプリケーションを作成してロールに割り当てるための適切な権限が必要です。詳細については、を参照してください https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions/["Microsoft Azure のドキュメント：「 Required permissions"^]。
 
 .手順
-. Azure ポータルで、 * Azure Active Directory * サービスを開きます。
+. Azureポータルで、* Microsoft Entra ID *サービスを開きます。
 +
-image:screenshot_azure_ad.gif["Microsoft Azure の Active Directory サービスを示すスクリーンショット。"]
+image:screenshot_azure_ad.png["Microsoft Azure の Active Directory サービスを示すスクリーンショット。"]
 
 . メニューで、 * アプリ登録 * をクリックします。
 . アプリケーションを作成します。
@@ -46,19 +46,19 @@ image:screenshot_azure_ad.gif["Microsoft Azure の Active Directory サービス
 
 . アプリケーション（クライアント） ID * とディレクトリ（テナント） ID * をコピーします。
 +
-image:screenshot_anf_app_ids.gif["Azure Active Directory 内のアプリケーション（クライアント）の ID とディレクトリ（テナント） ID を示すスクリーンショット。"]
+image:screenshot_anf_app_ids.gif["Microsoft Entra ID内のアプリケーションのアプリケーション（クライアント）IDとディレクトリ（テナント）IDを示すスクリーンショット。"]
 
 +
 BlueXPでAzure NetApp Files 作業環境を作成する場合は'アプリケーション(クライアント) IDとディレクトリ(テナント) IDを指定する必要がありますBlueXPでは、プログラムでサインインするためにIDが使用されます。
 
-. アプリケーションのクライアントシークレットを作成して、BlueXPがAzure ADで認証できるようにします。
+. BlueXPがアプリケーションのクライアントシークレットを使用してMicrosoft Entra IDで認証できるように、アプリケーションのクライアントシークレットを作成します。
 +
 .. ［ * 証明書とシークレット > 新しいクライアントシークレット * ］ をクリックします。
 .. シークレットと期間の説明を入力します。
 .. [ 追加（ Add ） ] をクリックします。
 .. クライアントシークレットの値をコピーします。
 +
-image:screenshot_anf_client_secret.gif["Azure AD サービスプリンシパルのクライアントシークレットを表示する Azure ポータルのスクリーンショット。"]
+image:screenshot_anf_client_secret.gif["Microsoft Entraサービスプリンシパルのクライアントシークレットを示すAzureポータルのスクリーンショット。"]
 
 
 
@@ -149,7 +149,7 @@ image:screenshot_settings_icon.gif["BlueXPコンソールの右上にある設�
 . [Add Credentials] をクリックし、ウィザードの手順に従います。
 +
 .. *クレデンシャルの場所*：*[Microsoft Azure]>[BlueXP]*を選択します。
-.. * クレデンシャルの定義 * ：必要な権限を付与する Azure Active Directory サービスプリンシパルに関する情報を入力します。
+.. *資格情報の定義*:必要な権限を付与するMicrosoft Entraサービスプリンシパルに関する情報を入力します。
 +
 *** クライアントシークレット
 *** アプリケーション（クライアント）ID

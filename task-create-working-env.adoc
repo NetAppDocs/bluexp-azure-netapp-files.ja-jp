@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-create-working-env.html 
 keywords: azure netapp files, create working environment, working environment 
-summary: Azure Active Directoryアプリケーションをセットアップしたら、必要なボリュームを作成できるように、BlueXPでAzure NetApp Files 作業環境を作成します。 
+summary: Microsoft Entraアプリケーションをセットアップしたら、必要なボリュームの作成を開始できるように、BlueXPでAzure NetApp Files作業環境を作成します。 
 ---
 = Azure NetApp Files 作業環境を作成します
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Azure Active Directoryアプリケーションをセットアップし�
 
 
 [role="lead"]
-Azure Active DirectoryアプリケーションをセットアップしてBlueXPにクレデンシャルを追加したら、必要なボリュームの作成を開始できるようにAzure NetApp Files 作業環境を作成します。
+Microsoft Entraアプリケーションをセットアップし、クレデンシャルをBlueXPに追加したら、必要なボリュームの作成を開始できるようにAzure NetApp Files作業環境を作成します。
 
 .手順
 . キャンバスページで、 * 作業環境の追加 * をクリックします。
