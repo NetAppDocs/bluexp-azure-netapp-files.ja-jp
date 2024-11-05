@@ -1,0 +1,13 @@
+= ボリュームテンプレートのサポート
+:allow-uri-read: 
+
+
+
+
+=== ボリュームテンプレートのサポート
+
+新しいアプリケーションテンプレートサービスを使用すると、 Azure NetApp Files のボリュームテンプレートを設定できます。テンプレートを使用すると、容量プール、サイズ、プロトコル、 VNet 、ボリュームを配置するサブネットなど、一部のボリュームパラメータがテンプレートにすでに定義されているため、ジョブの簡易化に役立ちます。パラメータがすでに事前定義されている場合は、次のボリュームパラメータに進みます。
+
+* https://docs.netapp.com/us-en/bluexp-remediation/concept-resource-templates.html["アプリケーションテンプレートと、環境での使用方法について説明します"^]
+* https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-create-volumes.html["テンプレートから Azure NetApp Files ボリュームを作成する方法について説明します"]
+
