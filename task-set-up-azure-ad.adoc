@@ -156,7 +156,7 @@ image:screenshot_settings_icon.gif["BlueXPコンソールの右上にある設�
 *** アプリケーション（クライアント）ID
 *** ディレクトリ（テナント）ID
 +
-この情報は、のときにキャプチャしておく必要があります <<Create the AD application,ADアプリケーションを作成しました>>。
+この情報は、のときにキャプチャしておく必要があり<<create-AD-application,ADアプリケーションを作成しました>>ます。
 
 
 

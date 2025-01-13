@@ -1,0 +1,29 @@
+---
+indexpage:
+  title: Azure NetApp Files のドキュメント
+  summary: Azure NetApp Files は、コアビジネスアプリケーション向けの Microsoft Azure ネイティブのハイパフォーマンスファイルストレージサービスです。このドキュメントでは、Azure
+    NetApp Files BlueXPを使用してをセットアップおよび管理する方法について説明します。
+  keywords: Azure NetApp files, BlueXP
+  lead: Azure NetApp Files は、コアビジネスアプリケーション向けの Microsoft Azure ネイティブのハイパフォーマンスファイルストレージサービスです。このドキュメントでは、Azure
+    NetApp Files BlueXPを使用してをセットアップおよび管理する方法について説明します。
+  tiles:
+  - title: はじめに
+    links:
+    - title: Azure NetApp Files の詳細をご覧ください
+      url: concept-azure-netapp-files.html
+    - title: クイックスタート
+      url: task-quick-start.html
+  - title: Azure NetApp Files を使用します
+    links:
+    - title: ボリュームを作成します
+      url: task-create-volumes.html
+    - title: ボリュームの管理
+      url: task-manage-volumes.html
+  - title: ブログとコミュニティ
+    links:
+    - title: NetAppコミュニティ
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXPブログ
+      url: https://cloud.netapp.com/blog
+    - title: クラウドに関する Web セミナー
+      url: https://cloud.netapp.com/events
