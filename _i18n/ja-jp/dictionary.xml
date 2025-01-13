@@ -348,11 +348,11 @@
   <block id="10bf7641576f767efba644c9606f6cc9" category="paragraph">この情報は、のときにキャプチャしておく必要があり<block ref="3d73f215425eb80e2dfd60570210a450" category="inline-xref-macro-rx"></block>ます。</block>
   <block id="ce52a320f18bd38ac094ba2db0b8f361" category="section-title">2024年1月13日</block>
   <block id="944c1cc3564ebb8c58254a0340102350" category="section-title">BlueXP  でのネットワーク機能のサポート</block>
-  <block id="4a54d31f5399a3b4ca4479fc3818c42c" category="paragraph">BlueXP  からAzure NetApp Filesでボリュームを設定する際に、ネットワーク機能を指定できるようになりました。これは、ネイティブのAzure NetApp Filesで利用可能な機能と連動しています。</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">クイックスタート</block>
   <block id="e2439a8512b353f75391ba9c346bc84d" category="sidebar">ボリュームの管理</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログとコミュニティ</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetAppコミュニティ</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
+  <block id="79d2f91b3755917d79acfd5be561d67b" category="paragraph">BlueXP  からAzure NetApp Filesでボリュームを設定する際に、ネットワーク機能を指定できるようになりました。これは、ネイティブのAzure NetApp Filesで利用可能な機能と連動しています。</block>
 </blocks>

@@ -28,6 +28,34 @@ BlueXP  からAzure NetApp Filesでボリュームを設定する際に、ネ�
 
 
 
+== bbe4d8abcc3519b138a73b8e46ee2119
+
+
+
+=== 新しい権限が必要です
+
+BlueXPからAzure NetApp Filesボリュームを管理するには、次の権限が必要です。
+
+Microsoft.Network/virtualNetworks/subnets/read
+
+この権限は、仮想ネットワークサブネットを読み取るために必要です。
+
+現在BlueXPからAzure NetApp Filesを管理している場合は、以前に作成したMicrosoft Entraアプリケーションに関連付けられているカスタムロールにこの権限を追加する必要があります。
+
+https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html["Microsoft Entraアプリケーションをセットアップし、カスタムロール権限を表示する方法について説明します。"]。
+
+
+
+== 9d5b3307d5a7d5905623bf21ab049bdd
+
+
+
+=== ボリュームテンプレートのサポートの廃止
+
+テンプレートからボリュームを作成することはできなくなりました。この操作はBlueXP修正サービスに関連付けられていましたが、このサービスは廃止されました。
+
+
+
 == 2021 年 4 月 11 日
 
 
