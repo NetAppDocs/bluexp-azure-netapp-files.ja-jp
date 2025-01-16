@@ -11,9 +11,9 @@ summary: ネットアップテクニカルサポートでサポートケース�
 
 
 [role="lead"]
-ece19bab46695021f109a5e50f08bebe
+BlueXPとそのストレージソリューションおよびサービスに固有のテクニカルサポートを受けるには、サポート登録が必要です。Cloud Volumes ONTAPシステムの主要なワークフローを有効にするには、サポート登録も必要です。
 
-8a3d807608e632d188a288fc5f4aa7eb
+サポートに登録しても、クラウドプロバイダのファイルサービスでNetAppのサポートは有効になりません。クラウドプロバイダのファイルサービスとそのインフラ、またはサービスを使用する解決策に関連するテクニカルサポートについては、該当する製品のBlueXPドキュメントの「困ったときは」を参照してください。
 
 * link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html#getting-help["ONTAP 対応の Amazon FSX"^]
 * link:https://docs.netapp.com/us-en/bluexp-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files の特長"^]
@@ -22,163 +22,163 @@ ece19bab46695021f109a5e50f08bebe
 
 
 
-== 0b0e252af8897fbe981ec6682d2aa33b
+== サポート登録の概要
 
-192054ad7601240a3e8be54cc5cc548e
+サポート資格を有効にする登録には、次の2つの形式があります。
 
-* 29360bfcdbc91d3f1514c372b4585965
+* BlueXP  アカウントのシリアル番号（BlueXP  のサポートリソースページに記載されている20桁の960xxxxxxxxxシリアル番号）を登録します。
 +
-23fdcbefa6d9cd877be7ceb7a18bb936
+これは、BlueXP内のすべてのサービスのシングルサポートサブスクリプションIDとして機能します。各BlueXPアカウントレベルのサポート契約が登録されている必要があります。
 
-* 55ff64467cd508971910145ab5d6b3b8
+* クラウドプロバイダのマーケットプレイスでのサブスクリプションに関連付けられているCloud Volumes ONTAP のシリアル番号を登録している（909201xxxxxxxxのシリアル番号）。
 +
-67dbdeb11e22ea7def810bade59ce818
+これらのシリアル番号は、通常PAY_GOシリアル番号と呼ばれ、Cloud Volumes ONTAP の導入時にBlueXPによって生成されます。
 
 
 
-28164bf9e881ddc9e7ff74744bfce180
+両方のタイプのシリアル番号を登録することで、サポートチケットのオープンやケースの自動生成などの機能を利用できます。登録を完了するには、以下の手順でNetApp Support Site（NSS）アカウントをBlueXPに追加してください。
 
 
 
-== 444b74bc81e823cc1c4c704219ad8ed3
+== NetAppサポートのためのBlueXP  の登録
 
-b3bf31f8a918c712f26cdf493a908825
+サポートに登録してサポート利用資格をアクティブ化するには、BlueXP  組織（またはアカウント）の1人のユーザがNetAppサポートサイトのアカウントをBlueXP  ログインに関連付ける必要があります。ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。
 
 
 
-=== bf4c731c0ee7f60c8018ad8f96828dda
+=== NSSアカウントをお持ちの既存のお客様
 
-7e177185e7eddff33dd8f3aeb7551132
+NSSアカウントをお持ちのネットアップのお客様は、BlueXPからサポートに登録するだけで済みます。
 
 .手順
-. 0307a12e5749f8dd930472ee78f69d2c
-. f19ab635e6d5f884a22ee4ce067fdbfd
-. 0c788a722f31f8f0cf36539ee04615cf
-. cfc5506589d5a4d055e721267d5f0732
+. BlueXPコンソールの右上で、[設定]アイコンを選択し、*[クレデンシャル]*を選択します。
+. [ユーザクレデンシャル]*を選択します。
+. [NSSクレデンシャルの追加]*を選択し、NetApp Support Site（NSS）認証プロンプトに従います。
+. 登録プロセスが正常に完了したことを確認するには、[ヘルプ]アイコンを選択し、*[サポート]*を選択します。
 +
-2ba7f9eae7a02f9c3ac0fc07517d1c48
-
-+
-3d183819a15163ef2e2e7d9d764254a9
+[リソース]ページに、BlueXP  組織がサポートに登録されていることが表示されます。
 
 +
-c05e530d1466e986d570cfe3f92656c3
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-support-registration.png["アカウントのシリアル番号、緑のチェックボックス、サポート登録済みのテキストを示すスクリーンショット。"]
+
++
+他のBlueXPユーザにNetApp Support Siteアカウントが関連付けられていない場合、このサポート登録ステータスは表示されません。ただし、BlueXP  組織がサポートに登録されていないわけではありません。組織内の1人のユーザーがこれらの手順を実行している限り、組織は登録されています。
 
 
 
 
 
-=== 1ff5aefce774ec72a211f2b3bb10b950
+=== NSSアカウントを持たない既存のお客様
 
-bdd862f49d428a850400bcf2f53cdaf2
+NetAppの既存のお客様で、ライセンスとシリアル番号は_NO_NSSアカウントしかお持ちでない場合は、NSSアカウントを作成してBlueXPログインに関連付ける必要があります。
 
 .手順
-. 0c4a8b62da9473fbd5401273c4f85ee0
+. NetAppサポートサイトのアカウントを作成するには、 https://mysupport.netapp.com/site/user/registration["NetApp Support Site ユーザー登録フォーム"^]
 +
-.. d61c9f72493817776f392db42ac446a2
-.. 5226d4ec1f4f81b740cbbd27635b441f
+.. 適切なユーザレベルを選択してください。通常は*ネットアップのお客様/エンドユーザ*がこれに該当します。
+.. 必ず、上記のシリアル番号フィールドに使用されているBlueXPアカウントのシリアル番号(960xxxx)をコピーしてください。これにより、アカウント処理が高速化されます。
 
 
-. 0499bba105f8a891a2c671f1ba99dd34
+. の手順を実行して、新しいNSSアカウントをBlueXPログインに関連付けます <<NSSアカウントをお持ちの既存のお客様>>。
 
 
 
 
-=== e9b1f53d6cabb3394833a4e102eb6a69
+=== ネットアップのソリューションを初めて導入する場合は
 
-c20c107d0d4eef6351660f3590324232
+ネットアップ製品を初めてご利用になり、NSSアカウントをお持ちでない場合は、以下の手順に従ってください。
 
 .手順
-. d889e6e7cc4c5509ab5b37f8fc894e46
+. BlueXPコンソールの右上で、[ヘルプ]アイコンを選択し、*[サポート]*を選択します。
 +
-e8d4092baef6680c6a35d5228ae31de2
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです"]
 
-. 2974170a8b1b5b4a2ac69aacd4c1c9c3
+. サポート登録ページでアカウントIDのシリアル番号を確認します。
 +
-379f9cd57d97013f3f7fdd24f692a0b1
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png["[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです"]
 
-. 78f94e749b89d69dcbf3baff21ccb958
-. d4f633ef130727b2776fa7f45024ca7d
-. 1128fc8d5ec64880f4d49337ed798d31
-. 50a1dc01b7312307c34a888071586955
+. [I am not a registered NetApp Customer]に移動して https://register.netapp.com["ネットアップサポート登録サイト"^] 選択します。
+. 必須フィールドに入力します（赤いアスタリスクのフィールド）。
+. [*製品ライン*（Product Line *）]フィールドで、[* Cloud Manager *]を選択し、該当する課金プロバイダーを選択します。
+. 上記の手順2からアカウントのシリアル番号をコピーし、セキュリティチェックを完了して、ネットアップのグローバルデータプライバシーポリシーを確認します。
 +
-3a24c87c9971d2011b4df223718f84b4
+この安全なトランザクションを完了するために、メールボックスに電子メールがすぐに送信されます。確認メールが数分で届かない場合は、必ずスパムフォルダを確認してください。
 
-. 03413baeca1ff7222737d8ce299bd4e8
+. Eメールからアクションを確認します。
 +
-201080500e946070a2e4873042507c77
+確認ではネットアップにリクエストが送信され、NetApp Support Site アカウントを作成することを推奨します。
 
-. 0c4a8b62da9473fbd5401273c4f85ee0
+. NetAppサポートサイトのアカウントを作成するには、 https://mysupport.netapp.com/site/user/registration["NetApp Support Site ユーザー登録フォーム"^]
 +
-.. d61c9f72493817776f392db42ac446a2
-.. a2454703f88e5bf5b433ae850a87151b
+.. 適切なユーザレベルを選択してください。通常は*ネットアップのお客様/エンドユーザ*がこれに該当します。
+.. シリアル番号フィールドには、上記のアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより処理が高速化されます。
 
 
 
 
 .完了後
-684375e279a289295b72a006d93e2c4c
+このプロセスについては、ネットアップからご連絡ください。これは、新規ユーザ向けの1回限りのオンボーディング演習です。
 
-5cdee814e2d9ba3490a8f16d00c65759
+NetAppサポートサイトのアカウントを取得したら、の手順を実行してアカウントをBlueXPログインに関連付けます。 <<NSSアカウントをお持ちの既存のお客様>>
 
 
 
-== 3e616bae81890a6c8fae17c9b45af152
+== Cloud Volumes ONTAPサポートのためにNSSクレデンシャルを関連付けます
 
-0ca08a23718c0a91743dd6c0146ca353
+Cloud Volumes ONTAPで次の主要なワークフローを有効にするには、NetAppサポートサイトのクレデンシャルをBlueXP  組織に関連付ける必要があります。
 
-* a0518a10626dc11fd00e2d20265ad240
+* 従量課金制のCloud Volumes ONTAPシステムのサポートを登録しています
 +
-321aadf78ef73521712291b7aba6411f
+お使いのシステムのサポートを有効にし、ネットアップのテクニカルサポートリソースにアクセスするには、 NSS アカウントを用意する必要があります。
 
-* d51b2b497db445a16b1c9583c1abbb59
+* お客様所有のライセンスを使用（BYOL）する場合のCloud Volumes ONTAP の導入
 +
-2ebfeabed40c2270d9fa8325080a4b3e
+ライセンスキーをBlueXPでアップロードし、購入した契約期間のサブスクリプションを有効にするには、NSSアカウントを提供する必要があります。これには、期間の更新の自動更新も含まれます。
 
-* f5135b68b75a8404803a1eb438e40c5e
+* Cloud Volumes ONTAP ソフトウェアを最新リリースにアップグレードしています
 
 
-c81c8e01f5d906ae1ab0c5c606f06b05
+NSSクレデンシャルとBlueXP  組織の関連付けは、BlueXP  ユーザログインに関連付けられたNSSアカウントとは異なります。
 
-8166996cb4a59c147200d89a061bb49c
+これらのNSSクレデンシャルは、特定のBlueXP  組織IDに関連付けられています。BlueXP  組織に属するユーザは、*[サポート]>[NSS管理]*からこれらのクレデンシャルにアクセスできます。
 
-* 328a2c1e7778e9edaf79d90c51409ac4
-* e3cd99e4aa330ae6bdfb3754d83ae962
+* お客様レベルのアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することもできます。
+* パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。
 
 
 .手順
-. d889e6e7cc4c5509ab5b37f8fc894e46
+. BlueXPコンソールの右上で、[ヘルプ]アイコンを選択し、*[サポート]*を選択します。
 +
-e8d4092baef6680c6a35d5228ae31de2
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです"]
 
-. c0e0b7ff0de9558404e9b77ece42948a
-. 85b9386ed443776127e099931d73448a
+. [NSS Management]>[Add NSS Account]*を選択します。
+. プロンプトが表示されたら、*続行*を選択してMicrosoftログインページにリダイレクトします。
 +
-d59e0b46782e48a01966e5c7ccc38d17
+NetAppでは、サポートとライセンスに固有の認証サービスのIDプロバイダとしてMicrosoftエントラIDを使用します。
 
-. 465ec6d5eafa3524c948c99d8bfcd306
+. ログインページで、NetApp Support Siteの登録 E メールアドレスとパスワードを入力して認証プロセスを実行します。
 +
-cbc6cc3bb022583403171b447b2a962c
+これらのアクションにより、BlueXPはライセンスのダウンロード、ソフトウェアのアップグレード検証、および将来のサポート登録などの目的でNSSアカウントを使用できます。
 
 +
 次の点に注意してください。
 
 +
-** ec084bb25ed5b934c09b361069c246b2
-** 27387009488fe78dcc7cb7e3e432792f
+** NSSアカウントは、お客様レベルのアカウントである必要があります（ゲストアカウントや一時アカウントではありません）。複数のお客様レベルのNSSアカウントを設定できます。
+** NSSアカウントがパートナーレベルのアカウントの場合、作成できるNSSアカウントは1つだけです。お客様レベルのNSSアカウントを追加しようとすると、パートナーレベルのアカウントが存在する場合は、次のエラーメッセージが表示されます。
 +
-d926847e4634e19a1aa7358becc0fa27
+「別のタイプのNSSユーザーがすでに存在するため、このアカウントではNSS顧客タイプは許可されていません。」
 
 +
-a04a3a5322782e8c18d0d64be7e1ccbc
+既存のお客様レベルのNSSアカウントがあり、パートナーレベルのアカウントを追加しようとする場合も同様です。
 
-** 1afe8a81cfddc9fa9559e272bb6b9496
+** ログインに成功すると、ネットアップはNSSのユーザ名を保存します。
 +
-0dfcbbbe02d3e96f8ad78782e8772587
+これはシステムによって生成されたIDで、電子メールにマッピングされます。NSS管理*ページでは、メニューからEメールを表示できます image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["3つの水平ドットのアイコン"] 。
 
-** fc79de85a483938f72fbcb9822ec0ae3
+** ログイン資格情報トークンを更新する必要がある場合は、メニューに*資格情報の更新*オプションもあり image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png["3つの水平ドットのアイコン"] ます。
 +
-b14d512a3c64fb5df16f6721b0603c63
+このオプションを使用すると、再度ログインするように求められます。これらのアカウントのトークンは90日後に期限切れになります。このことを通知する通知が投稿されます。
 
 
 

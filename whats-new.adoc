@@ -18,7 +18,7 @@ BlueXPのAzure NetApp Files の新機能をご確認ください。
 
 
 
-== 2024年1月13日
+== 2025年1月13日
 
 
 
@@ -28,7 +28,7 @@ BlueXP  からAzure NetApp Filesでボリュームを設定する際に、ネ�
 
 
 
-== bbe4d8abcc3519b138a73b8e46ee2119
+== 2024年6月12日
 
 
 
@@ -46,7 +46,7 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 
-== 9d5b3307d5a7d5905623bf21ab049bdd
+== 2024年4月22日
 
 
 
