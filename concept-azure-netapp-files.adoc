@@ -51,7 +51,7 @@ https://azure.microsoft.com/pricing/details/netapp/["Azure NetApp Files の価�
 
 == サポートされている地域
 
-https://cloud.netapp.com/cloud-volumes-global-regions["サポートされる Azure リージョンを表示します"^]
+https://bluexp.netapp.com/cloud-volumes-global-regions["サポートされる Azure リージョンを表示します"^]
 
 
 
@@ -63,7 +63,7 @@ Azure NetApp Files に関連したテクニカルサポートの問題につい�
 
 == 関連リンク
 
-* https://cloud.netapp.com/azure-netapp-files["ネットアップのBlueXP Webサイト：Azure NetApp Files"^]
-* https://docs.microsoft.com/azure/azure-netapp-files/["Azure NetApp Files のドキュメント"^]
-* https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["BlueXPのコピーと同期に関するドキュメント"^]
+* link:https://bluexp.netapp.com/azure-netapp-files["ネットアップのBlueXP Webサイト：Azure NetApp Files"^]
+* link:https://learn.microsoft.com/azure/azure-netapp-files/["Azure NetApp Files のドキュメント"^]
+* link:https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["BlueXPのコピーと同期に関するドキュメント"^]
 
